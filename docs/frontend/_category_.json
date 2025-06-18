@@ -1,0 +1,8 @@
+{
+  "label": "Front End Development",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore front end development topics, including HTML, CSS, JavaScript, and frameworks like NextJS."
+  }
+}
