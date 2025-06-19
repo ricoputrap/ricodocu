@@ -2,46 +2,37 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Rico's Documentation Hub
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to my personal knowledge base and documentation hub! This site contains my learning notes, insights, and resources across various domains in technology and beyond.
 
-## Getting Started
+## 🗺️ Navigate the Knowledge Base
 
-Get started by **creating a new site**.
+Explore the different sections to find what you're looking for:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 💻 Development & Programming
 
-### What you'll need
+- **[Programming](/docs/programming)** - Learning notes on various programming languages, frameworks, and development techniques
+- **[Front End Development](/docs/frontend)** - HTML, CSS, JavaScript, and modern frameworks like Next.js
+- **[Back End Development](/docs/backend)** - Server-side programming, APIs, and backend architectures
+- **[Databases](/docs/databases)** - SQL, NoSQL, data modeling, and database management
+- **[DevOps](/docs/devops)** - CI/CD, infrastructure as code, monitoring, and deployment strategies
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 💰 Finance & Business
 
-## Generate a new site
+- **[Finance](/docs/finance)** - Financial concepts, investment strategies, and money management tools
 
-Generate a new Docusaurus site using the **classic template**.
+## 🚀 Getting Started
 
-The classic template will automatically be added to your project after you run the command:
+Each section contains curated content, tutorials, and practical examples. Feel free to explore any topic that interests you or use the search functionality to find specific information.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+> **Note**: This documentation is continuously updated as I learn and explore new technologies and concepts. Check back regularly for new content!
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## 📖 How to Use This Site
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Use the **sidebar navigation** to browse through different categories
+- Utilize the **search bar** at the top to quickly find specific topics
+- Each section includes practical examples and real-world applications
+- Code examples are provided where applicable
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ready to dive in? Pick a section above and start exploring!
