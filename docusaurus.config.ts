@@ -73,9 +73,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Rico Putra',
+      title: 'Rico Docu',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Docusaurus Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,7 +85,6 @@ const config: Config = {
           position: 'left',
           label: 'Notes',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/projects', label: 'Projects', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
