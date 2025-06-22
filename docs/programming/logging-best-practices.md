@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Logging Best Practices
 
 To maximize the effectiveness of your logging efforts and prevent excessive logging, it's crucial to follow well-established logging best practices. By implementing the following logging strategies, you'll ensure that your logs are both informative and manageable, leading to quicker issue resolution and lower costs!
