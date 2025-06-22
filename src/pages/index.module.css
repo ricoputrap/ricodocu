@@ -3,21 +3,224 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+.homePage {
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
+  background: var(--ifm-background-color);
+}
+
+.profileCard {
+  background: var(--ifm-card-background-color);
+  border-radius: 24px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profileCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15);
+}
+
+.profileImage {
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--ifm-color-primary-lighter);
+  transition: transform 0.2s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+}
+
+.profileName {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.profileTitle {
+  font-size: 1.1rem;
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.profileDescription {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.socialLink:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.profileActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.primaryButton {
+  padding: 0.75rem 1.5rem;
+  background: var(--ifm-color-primary);
+  color: white !important;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.primaryButton:hover {
+  background: var(--ifm-color-primary-dark);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.secondaryButton {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border: 2px solid var(--ifm-color-primary);
+  transition: all 0.2s ease;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.secondaryButton:hover {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .homePage {
+    padding: 1rem;
+    min-height: 70vh;
+  }
+  
+  .profileCard {
+    /* Remove card styling on mobile for full-width, native look */
+    background: transparent;
+    border-radius: 0;
+    padding: 2rem 1rem;
+    box-shadow: none;
+    border: none;
+    max-width: none;
+    width: 100%;
+  }
+  
+  .profileCard:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .avatar {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .profileName {
+    font-size: 1.8rem;
+  }
+  
+  .profileTitle {
+    font-size: 1rem;
+  }
+  
+  .profileDescription {
+    font-size: 0.9rem;
+  }
+  
+  .profileActions {
+    flex-direction: column;
+  }
+  
+  .primaryButton,
+  .secondaryButton {
+    padding: 0.8rem 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profileCard {
+    /* Maintain removed card styling on smallest screens */
+    background: transparent;
+    border-radius: 0;
+    padding: 1.5rem 1rem;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .profileName {
+    font-size: 1.6rem;
+  }
+  
+  .socialLinks {
+    gap: 0.8rem;
+  }
+  
+  .socialLink {
+    width: 36px;
+    height: 36px;
+  }
 }
