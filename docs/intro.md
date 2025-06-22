@@ -21,18 +21,3 @@ Explore the different sections to find what you're looking for:
 ### 💰 Finance & Business
 
 - **[Finance](/docs/finance)** - Financial concepts, investment strategies, and money management tools
-
-## 🚀 Getting Started
-
-Each section contains curated content, tutorials, and practical examples. Feel free to explore any topic that interests you or use the search functionality to find specific information.
-
-> **Note**: This documentation is continuously updated as I learn and explore new technologies and concepts. Check back regularly for new content!
-
-## 📖 How to Use This Site
-
-- Use the **sidebar navigation** to browse through different categories
-- Utilize the **search bar** at the top to quickly find specific topics
-- Each section includes practical examples and real-world applications
-- Code examples are provided where applicable
-
-Ready to dive in? Pick a section above and start exploring!
